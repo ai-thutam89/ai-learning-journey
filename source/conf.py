@@ -20,6 +20,15 @@ release = '1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+html_context = {
+    "display_github": True,           # Enable GitHub integration
+    "github_user": "Tam Nguyen Study",   # GitHub username
+    "github_repo": "ai-learning-journey",  # Repository name
+    "github_version": "main",         # Branch name
+    "conf_py_path": "/source/",       # Path to your docs folder in the repo
+}
+
+
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
