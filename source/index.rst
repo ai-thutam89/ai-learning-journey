@@ -44,6 +44,7 @@ Welcome to AI-Learning-Journey's documentation!
    Resources/datasets
    Resources/papers
    Resources/others
+   lumache
 
 Indices and tables
 ==================
