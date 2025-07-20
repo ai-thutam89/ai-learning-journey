@@ -20,3 +20,5 @@ classifiers = [
   "Framework :: Sphinx",
   "Topic :: Documentation"
 ]
+[tool.setuptools]
+packages = ["lumache"]
