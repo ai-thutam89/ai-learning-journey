@@ -28,6 +28,7 @@ html_context = {
     "conf_py_path": "/source/",       # Path to your docs folder in the repo
 }
 
+html_context["rebuild_trigger"] = True
 
 extensions = [
     'sphinx.ext.autodoc',
