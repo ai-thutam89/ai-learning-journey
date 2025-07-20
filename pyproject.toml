@@ -11,7 +11,7 @@ requires-python = ">=3.10"
 authors = [
   { name = "Tam Nguyen Study", email = "ai.thutam89@gmail.com" }
 ]
-dependencies = ["myst-parser"]
+dependencies = ["myst-parser", "sphinx_rtd_theme"]
 license = { text = "MIT" }
 classifiers = [
   "Development Status :: 3 - Alpha",
