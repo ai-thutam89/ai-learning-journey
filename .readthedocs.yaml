@@ -17,6 +17,5 @@ python:
   install:
     - method: pip
       path: .
-    - method: pip
       packages:
         - myst-parser
